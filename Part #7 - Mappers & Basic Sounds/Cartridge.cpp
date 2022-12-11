@@ -51,10 +51,10 @@
 
 	Author
 	~~~~~~
-	David Barr, aka javidx9, ©OneLoneCoder 2019
+	David Barr, aka javidx9, ï¿½OneLoneCoder 2019
 */
 
-#include "Cartridge.h"
+#include "Cartridge.hpp"
 
 Cartridge::Cartridge(const std::string& sFileName)
 {

@@ -68,11 +68,11 @@
 
 	Author
 	~~~~~~
-	David Barr, aka javidx9, ©OneLoneCoder 2019
+	David Barr, aka javidx9, ï¿½OneLoneCoder 2019
 */
 
-#include "olc6502.h"
-#include "Bus.h"
+#include "olc6502.hpp"
+#include "Bus.hpp"
 
 // Constructor
 olc6502::olc6502()

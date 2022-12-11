@@ -51,10 +51,10 @@
 
 	Author
 	~~~~~~
-	David Barr, aka javidx9, ©OneLoneCoder 2019
+	David Barr, aka javidx9, ï¿½OneLoneCoder 2019
 */
 
-#include "Bus.h"
+#include "Bus.hpp"
 
 Bus::Bus()
 {

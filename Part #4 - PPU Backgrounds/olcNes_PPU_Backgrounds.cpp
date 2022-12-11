@@ -51,17 +51,17 @@
 
 	Author
 	~~~~~~
-	David Barr, aka javidx9, ©OneLoneCoder 2019
+	David Barr, aka javidx9, ï¿½OneLoneCoder 2019
 */
 
 #include <iostream>
 #include <sstream>
 
-#include "Bus.h"
-#include "olc6502.h"
+#include "Bus.hpp"
+#include "olc6502.hpp"
 
 #define OLC_PGE_APPLICATION
-#include "olcPixelGameEngine.h"
+#include "olcPixelGameEngine.hpp"
 
 
 
@@ -265,7 +265,7 @@ private:
 int main()
 {
 	Demo_olc2C02 demo;
-	demo.Construct(780, 480, 2, 2);
+	demo.Construct(780, 480, 1, 1);
 	demo.Start();
 	return 0;
 }

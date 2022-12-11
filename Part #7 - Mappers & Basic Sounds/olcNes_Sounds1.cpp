@@ -51,20 +51,20 @@
 
 	Author
 	~~~~~~
-	David Barr, aka javidx9, ©OneLoneCoder 2019
+	David Barr, aka javidx9, ï¿½OneLoneCoder 2019
 */
 
 #include <iostream>
 #include <sstream>
 #include <deque>
 
-#include "Bus.h"
+#include "Bus.hpp"
 
 #define OLC_PGE_APPLICATION
-#include "olcPixelGameEngine.h"
+#include "olcPixelGameEngine.hpp"
 
 #define OLC_PGEX_SOUND
-#include "olcPGEX_Sound.h"
+#include "olcPGEX_Sound.hpp"
 
 
 class Demo_olcNES : public olc::PixelGameEngine
@@ -414,7 +414,7 @@ Demo_olcNES* Demo_olcNES::pInstance = nullptr;
 int main()
 {
 	Demo_olcNES demo;
-	demo.Construct(780, 480, 2, 2);
+	demo.Construct(780, 480, 1, 1);
 	demo.Start();
 	return 0;
 }

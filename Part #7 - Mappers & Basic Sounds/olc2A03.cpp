@@ -1,4 +1,4 @@
-#include "olc2A03.h"
+#include "olc2A03.hpp"
 
 /*
 	olc::NES - APU
@@ -53,7 +53,7 @@
 
 	Author
 	~~~~~~
-	David Barr, aka javidx9, ©OneLoneCoder 2019
+	David Barr, aka javidx9, ï¿½OneLoneCoder 2019
 */
 
 uint8_t olc2A03::length_table[] = {  10, 254, 20,  2, 40,  4, 80,  6,
